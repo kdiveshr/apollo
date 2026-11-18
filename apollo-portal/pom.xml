@@ -240,11 +240,11 @@
           <replacements>
             <replacement>
               <token>\.css\"</token>
-              <value>.css?v=${maven.build.timestamp}\"</value>
+              <value>.css?v=${project.build.outputTimestamp}\"</value>
             </replacement>
             <replacement>
               <token>\.js\"</token>
-              <value>.js?v=${maven.build.timestamp}\"</value>
+              <value>.js?v=${project.build.outputTimestamp}\"</value>
             </replacement>
           </replacements>
         </configuration>
